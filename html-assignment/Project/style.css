@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+	display:inline;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+	 font-size: 16px;
+    padding: 3px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+	text-decoration:underline;
+	color:white;
+}
+
+
+
+
+article {
+    margin-left: 200px;
+    border-left: 1px solid gray;
+    padding: 1em;
+	font-size:20px;
+    overflow: hidden;
+}
+
+</style>
+</head>
+</html>
