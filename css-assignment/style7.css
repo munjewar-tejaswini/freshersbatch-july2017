@@ -1,0 +1,5 @@
+div{
+    border: 1px solid red;
+	outline: 1px dotted #80ff80;
+	display:inline;
+}
